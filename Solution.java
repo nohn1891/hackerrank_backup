@@ -7,7 +7,7 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 public class Solution{
-	
+	// added documentation
 	 public int diagonalDifference(List<List<Integer>> arr) {
 		 System.out.println(arr);
         int a = 0 ; 
@@ -23,6 +23,7 @@ public class Solution{
 			return c*-1;
 		}
         return c;
+        // ^^^ should use absolute
     }
 	
 	public static void main(String[] args) throws IOException {
