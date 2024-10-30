@@ -27,8 +27,8 @@ public class Solution{
     }
 	
 	public static void main(String[] args) throws IOException {
-	
-		        Random random = new Random();
+        // Why use random ? 
+         Random random = new Random();
 		 int n = 3;
 		
          List<List<Integer>> arr = new ArrayList<>();
